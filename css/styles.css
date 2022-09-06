@@ -133,6 +133,7 @@ img {
 .header-list:focus {
     list-style: none;
     padding: 0;
+
 }
 
 
@@ -142,6 +143,7 @@ img {
     text-decoration: none;
     color: inherit;
     padding: 32px 0;
+    position: relative;
 
 }
 
@@ -153,6 +155,21 @@ img {
 .current {
     color: var(--main-clr);
 }
+
+.current::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: 0;
+    background-color: var(--main-clr);
+    border-radius: 2px;
+}
+
+
+
+
 
 /* Кінець nav */
 
