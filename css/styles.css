@@ -217,7 +217,7 @@ img {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero_photo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1600px;
+    max-width: 1600px;
     height: 600px;
     margin: 0 auto;
     background-position: center;
